@@ -34,7 +34,7 @@ defmodule Rbmq.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-      {:amqp, "~> 1.0"},
+      {:amqp, "~> 1.0.3"},
       {:rabbit_common, "~> 3.7", override: true},
       {:jason, "~> 1.0"},
       {:confex, "~> 1.0"},
